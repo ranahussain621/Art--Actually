@@ -1,0 +1,67 @@
+
+.modal-show-compare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: 80% !important;
+    overflow: auto;
+background: none !important;
+  }
+  .modal-content-compare {
+    background-color: #fff;
+      overflow-y: auto;
+      padding: 2px;
+      max-width: 90%;
+      height: auto;
+      border-radius: 4px;
+     
+  }
+  
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 992px) {
+    .modal-content-compare {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for extra small screens */
+  @media only screen and (max-width: 576px) {
+    .modal-content-compare {
+      max-width: 95%;
+      height: auto;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .modal-content-compare {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+    .modal-content-compare {
+      max-width: 90%;
+      height: auto;
+  
+    }
+  }

@@ -1,0 +1,40 @@
+.compaign.active::after {
+    color: white !important;
+    background-color: #666EE8 !important;
+    /* border: 2px solid;
+    padding: 10px; */
+    text-align: center;
+    }
+
+    .compaignSearch:active {
+        border: 0;
+        box-shadow: none;
+    }
+
+    .added:active {
+        border-bottom: 1px solid !important;
+    }
+
+    .borderless-input {
+        border: none;
+    }
+
+    .input-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      
+      input.compaignSearch {
+        padding-right: 30px; /* Adjust the value to your preference to create space for the icon */
+      }
+      
+      .search-icon {
+        position: absolute;
+        top: 50%;
+        right: 10px; /* Adjust the value to control the icon's position */
+        transform: translateY(-50%);
+        color: #555; /* Set the color of the icon as needed */
+        cursor: pointer;
+      }
+      

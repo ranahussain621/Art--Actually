@@ -1,0 +1,56 @@
+.nav-pills .nav-link {
+  border-bottom: none;
+}
+
+.sidebarTitle{
+  display: block;
+}
+
+.sideBar-icon{
+    display: none;
+}
+
+
+@media screen and (max-width: 990px){
+    .nav-pills .nav-link{
+       color: #709CA6;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (min-width: 990px){
+  .icon{
+    display: none;
+  }
+}
+
+ @media only screen and (max-width: 990px){
+
+    .sidebarTitle{
+      display: none;
+    }
+  }
+/*.nav-item{
+    display: none;
+}
+.sideBar-icon:checked + .flex-column .nav-item {
+    display: block;
+  }
+
+} */
+
+@media only screen and (max-width: 575px) {
+    .sideBar-icon {
+      display: block;
+    }
+  
+    .sidebar-area:not(.active) .nav-item {
+      display: none;
+    }
+    .sidebarTitle{
+      display: block;
+    }
+  }

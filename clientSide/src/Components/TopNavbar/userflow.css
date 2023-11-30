@@ -1,0 +1,4 @@
+.dropdown.no-border .dropdown-toggle {
+    border-color: transparent;
+    box-shadow: none;
+  }

@@ -1,0 +1,123 @@
+
+.modalFordeleteArtOpen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-contentFordeleteArtOpen {
+    background-color: #fff;
+      overflow-y: auto;
+      padding: 2px;
+      max-width: 90%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  
+.modalForUpdateArtOpen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-contentForUpdateArtOpen {
+  background-color: #fff;
+    overflow-y: auto;
+    padding: 2px;
+    max-width: 50%;
+    min-width: 50%;
+    height: auto;
+    z-index: 3;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+  
+
+@media only screen and (max-width: 992px) {
+  .modal-contentForUpdateArtOpen {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .modal-contentForUpdateArtOpen {
+    max-width: 60%;
+    height: 80%;
+  }
+}
+
+/* Media query for extra small screens */
+@media only screen and (max-width: 576px) {
+  .modal-contentForUpdateArtOpen {
+    max-width: 70%;
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .modal-contentForUpdateArtOpen {
+    max-width: 70%;
+    height: 80%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .modal-contentForUpdateArtOpen {
+    max-width: 50%;
+    height: 80%;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .modal-contentForUpdateArtOpen {
+    max-width: 50%;
+    height: 80%;
+
+  }
+}
+
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 992px) {
+    .modal-contentFordeleteArtOpen {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for extra small screens */
+  @media only screen and (max-width: 576px) {
+    .modal-contentFordeleteArtOpen {
+      max-width: 95%;
+      height: auto;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .modal-contentFordeleteArtOpen {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+    .modal-contentFordeleteArtOpen {
+      max-width: 90%;
+      height: auto;
+  
+    }
+  }

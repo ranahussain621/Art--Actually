@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(211, 229, 245);
+  
+}
+
+.background-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+
+  .rana:hover {
+    cursor: pointer;
+  }
+.cardss{
+max-width: 270px;
+}
+.text-centerr {
+  text-align: left !important;
+  padding-left: 8px;
+}
+@media only screen and (max-width: 770px) {
+  .cardss{
+    width: 100%;
+    max-width: 370px;
+  }
+  .text-centerr {
+    text-align: center !important;
+  }
+}
+
+/* Media query for extra small screens */
+@media only screen and (max-width: 576px) {
+  .cardss{
+      width: 100%;
+      max-width: 370px;
+  }
+  .text-centerr {
+    text-align: center !important;
+  }
+}
+
+  

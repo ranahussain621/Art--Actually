@@ -1,0 +1,104 @@
+.virtual {
+    font-size: 100px;
+    color: #fff;
+    font-family: "../../assets/fonts/Brogte-RpMge.woff";
+    /* text-shadow: 172px 20px 9px black; */
+  }
+  
+  .banner h4 {
+    font-size: 48px;
+    text-shadow: 17px 19px 9px black;
+  }
+  
+  .art__img__wrapper {
+    height: 300px;
+  }
+  .art__img__wrapper img {
+    object-fit: cover;
+  }
+  
+  .art__show {
+    background-color: #f0eeed;
+  }
+  
+  .blog__section {
+    background-color: #fff;
+  }
+  
+  .blog__section .content {
+    padding: 32px 45px;
+    height: 280px;
+  }
+  
+  .content h6 {
+    font-size: 12px;
+    color: #709da7;
+    text-transform: uppercase;
+  }
+  
+  .content h5 {
+    font-size: 21px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 14px;
+    color: #baced1;
+  }
+  
+  .player {
+    /* background-color: #709da7; */
+    margin: 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .card-bloggg{
+    width: 25%;
+  }
+  @media (max-width: 1190px) {
+    .card-bloggg{
+      width: 100%;
+    }
+  }
+  @media (max-width: 990px) {
+    .card-bloggg{
+      width: 100%;
+    }
+    .virtual {
+      font-size: 80px;
+      color: #fff;
+      font-family: "../../assets/fonts/Brogte-RpMge.woff";
+      /* text-shadow: 172px 20px 9px black; */
+    }
+    .banner h4 {
+      font-size: 40px;
+      text-shadow: 17px 19px 9px black;
+    }
+  }
+  @media (max-width: 660px) {
+    .virtual {
+      font-size: 60px;
+      color: #fff;
+      font-family: "../../assets/fonts/Brogte-RpMge.woff";
+      /* text-shadow: 172px 20px 9px black; */
+    }
+    .banner h4 {
+      font-size:35px;
+      text-shadow: 17px 19px 9px black;
+    }
+  }
+  @media (max-width: 450px) {
+    .virtual {
+      font-size: 40px;
+      color: #fff;
+      font-family: "../../assets/fonts/Brogte-RpMge.woff";
+      /* text-shadow: 172px 20px 9px black; */
+    }
+    .banner h4 {
+      font-size: 25px;
+      text-shadow: 17px 19px 9px black;
+    }
+  }

@@ -1,0 +1,24 @@
+.volume-slider {
+    /* For Mozilla Firefox */
+    --moz-range-progress-color: yellow !important;
+  }
+  
+  /* For Chrome, Safari, and Opera */
+  .volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: yellow !important;
+    border: 1px solid #000000;
+    border-radius: 50%;
+  }
+  
+  /* For Internet Explorer and Edge */
+  .volume-slider::-ms-thumb {
+    width: 15px;
+    height: 15px;
+    background-color: yellow !important;
+    border: 1px solid #000000;
+    border-radius: 50%;
+  }

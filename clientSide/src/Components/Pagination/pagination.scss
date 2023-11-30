@@ -1,0 +1,122 @@
+@keyframes cdp-in {
+    from {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .cdp {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0;
+    margin: 50px 0;
+    
+    animation: cdp-in 500ms ease both;
+  }
+  .inner-data{
+    background-color:rgb(243, 242, 247);
+    border-radius: 20px;
+  }
+  .cdp_i {
+    font-size: 14px;
+    text-decoration: none;
+    transition: background 250ms;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 3px 3px;
+    height: 38px;
+    min-width: 38px;
+    border-radius: 38px;
+    line-height: 38px;
+    padding: 0;
+    color: rgb(6, 140, 243);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    display: none;
+    &:first-child,
+    &:last-child {
+      padding: 0 16px;
+      margin: 0 6px 3px;
+    }
+    &:last-child,
+    &:nth-child(2),
+    &:nth-last-child(2) {
+      display: inline-block;
+    }
+  }
+  .pag-card{
+    
+    background-color: #fff;
+    /* // border: 1px solid rgba(0, 0, 0, 0.125); */
+    
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    
+  }
+  
+  .cdp_i:hover {
+    background-color: rgb(6, 140, 243);
+    color: #fff;
+  }
+  
+  .cdp:not([actpage="1"]) .cdp_i:nth-child(1) {
+    display: inline-block;
+  }
+  
+  @for $i from 1 through 80 {
+    .cdp[actpage="#{$i}"] {
+      .cdp_i:nth-child(#{$i - 2}):not(:first-child):not(:nth-child(2)) {
+        display: inline-block;
+        poopenSans-events: none;
+        color: transparent;
+        border-color: transparent;
+        width: 50px;
+      }
+      .cdp_i:nth-child(#{$i - 2}):not(:first-child):not(:nth-child(2)):after {
+        content: '...';
+        color: rgb(6, 140, 243);
+        font-size: 18px;
+        margin-left: -6px;
+      }
+      .cdp_i:nth-child(#{$i - 1}):not(:first-child) {
+        display: inline-block;
+      }
+      .cdp_i:nth-child(#{$i}):not(:first-child) {
+        display: inline-block;
+      }
+      .cdp_i:nth-child(#{$i + 1}) {
+        background-color: rgb(9, 171, 244);
+        color: #fff;
+        display: inline-block;
+      }
+      .cdp_i:nth-child(#{$i + 1}) + .cdp_i:last-child {
+        display: none !important;
+      }
+      .cdp_i:nth-child(#{$i + 2}):not(:last-child) {
+        display: inline-block;
+      }
+      .cdp_i:nth-child(#{$i + 3}):not(:last-child) {
+        display: inline-block;
+      }
+      .cdp_i:nth-child(#{$i + 4}):not(:last-child):not(:nth-last-child(2)) {
+        display: inline-block;
+        poopenSans-events: none;
+        color: transparent;
+        border-color: transparent;
+        width: 50px;
+    &:after {
+      content: '...';
+      color: rgb(6, 140, 243);
+      font-size: 18px;
+      margin-left: -6px;
+    }
+      }
+     
+    }
+  }
+  
+  

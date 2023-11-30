@@ -1,0 +1,85 @@
+
+.modalForfileUploadOpen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-contentForfileUploadOpen {
+    background-color: #fff;
+      overflow-y: auto;
+      padding: 2px;
+      max-width: 50%;
+      min-width: 800px;
+      min-height: 50%;
+     border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+         z-index: 3;
+  }
+  
+  
+
+  .modalForupload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-contentForupload {
+    background-color: #fff;
+      overflow-y: auto;
+      padding: 2px;
+      max-width: 90%;
+      min-width: 800px;
+    
+     
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+         z-index: 999;
+  }
+  
+
+
+
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 992px) {
+    .modal-contentForfileUploadOpen {
+      max-width: 50%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for extra small screens */
+  @media only screen and (max-width: 576px) {
+    .modal-contentForfileUploadOpen {
+      max-width: 95%;
+      height: auto;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .modal-contentForfileUploadOpen {
+      max-width: 50%;
+      height: auto;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+    .modal-contentForfileUploadOpen {
+      max-width: 50%;
+      height: auto;
+  
+    }
+  }

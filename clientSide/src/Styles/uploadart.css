@@ -1,0 +1,75 @@
+
+.modal-show-uploadArt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+background: #dbcece14;
+  }
+  .modal-content-uploadArt {
+    background-color: #fff;
+     
+      padding: 2px;
+      max-width: 90%;
+      height: auto;
+      border-radius: 4px;
+     
+  }
+
+
+
+  .gallery-details-container {
+    max-height: 80vh; /* Adjust this value to fit within the available space */
+    padding: 20px; /* Add padding for better aesthetics */
+    overflow-y: auto; /* Add a scrollbar when content exceeds container's height */
+  }
+  
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 992px) {
+    .modal-content-uploadArt{
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for extra small screens */
+  @media only screen and (max-width: 576px) {
+    .modal-content-uploadArt {
+      max-width: 95%;
+      height: auto;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .modal-content-uploadArt {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+    .modal-content-uploadArt {
+      max-width: 90%;
+      height: auto;
+  
+    }
+  }

@@ -1,0 +1,101 @@
+.paycard{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.paycard-card{
+    max-width: 480px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+box-shadow: 0px 20px 24px -4px #10182814;
+
+}
+.paycard-head h1{
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin: 20px 0 0 0;
+
+}
+.paycard-head p , .paycard label{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: #667085;
+    margin: 8px 0 0 0;
+}
+.paycard input{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+border: 1px solid #D0D5DD;
+padding: 10px 14px 10px 14px;
+border-radius: 8px;
+outline: none;
+}
+.paycard label{
+    color: #344054;
+    margin: 0 0 5px 0;
+}
+.paycard-input {
+    margin: 20px 0 0 0;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.row1-input {
+    display: flex;
+    gap: 10px;
+}
+.col1-input {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+}
+.col1-input.col-2 {
+    width: 112px;
+}
+.paycard-card .buttons{
+display: flex;
+margin: 25px 0 0 0 ;
+gap: 10px;
+}
+.paycard-card .buttons > *{
+width:50%;
+outline: none;
+border-radius: 8px;
+padding: 10px 18px 10px 18px;
+border: 1px solid #D0D5DD;
+background-color: transparent;
+}
+.paycard-card .buttons  .save{
+    background-color: #709AA4;
+    color: white;
+}
+#card-number{
+    padding-left: 50px;
+}
+.cardnum-input{
+    position: relative;
+}
+img.mastercard {
+    width: 34px;
+    height: 24px;
+    position: absolute;
+    top: 36px;
+    left: 11px;
+}

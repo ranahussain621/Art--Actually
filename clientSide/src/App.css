@@ -1,0 +1,46 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+
+ 
+
+  .openSans-300 {
+     font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+    }
+    
+  .openSans-400 {
+     font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+    }
+    
+  .openSans-500 {
+     font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+    }
+    
+    .openSans-600 {
+     font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+    }
+    
+    .openSans-700 {
+     font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+    }
+    .openSans-700 {
+      font-family: 'Open Sans', sans-serif;
+       font-weight: 800;
+     }
+     
+    p,h1,h2,h3,h4,h5,label,input,textarea,li{
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+  

@@ -1,0 +1,229 @@
+.screenName {
+    color: #709aa4;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10%;
+  }
+  
+  .mainContainer {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 67px;
+    border-radius: 30px;
+  }
+  
+  .ProfileEllipseLogo {
+    width: 176px;
+    height: 176px;
+    margin-bottom: 10px;
+  }
+  
+  .containerStyleLeftSide {
+    
+    /* height: 278px; */
+    border-radius: 10px;
+    border: 1px solid var(--input-box-stroke-thin, rgba(0, 0, 0, 0.15));
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 16px;
+    /* padding-right: 16px; */
+    padding-top: 27px;
+    padding-bottom: 37px !important;
+    margin-top: 24px;
+  }
+  
+  .labelText {
+    color: #809196;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .contactText {
+    color: rgba(8, 58, 80, 0.9);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 25px;
+  }
+  
+  .greenRoundedBox {
+    border-radius: 72.661px;
+    background: #99fdd2;
+    width: 60px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+  .whiteRoundedBox {
+    border-radius: 72.661px;
+    background: #f0effa;
+    width: 60px;
+    height: 18px;
+    /* padding: 3px 20px 2px 21px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .roundedBoxText {
+    font-family: 'Inter';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    /* padding-left: 20px; */
+    padding-top: 3px;
+  }
+  .roundedBoxTextLonger {
+    /* font-family: 'Inter';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    margin-left: -15px;
+    padding-bottom: 2px; */
+  
+    color: #49494b;
+    font-family: 'Inter';
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   text-align: center;
+    padding-top: 3px;
+  }
+  
+  .containerStyleRightSide {
+   
+    /* height: 278px; */
+    border-radius: 10px;
+    border: 1px solid var(--input-box-stroke-thin, rgba(0, 0, 0, 0.15));
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 27px;
+    padding-bottom: 37px !important;
+    margin-top: 17px;
+  }
+  
+  .BlueAndGrayStars {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .rightSidePaddedLableText {
+    color: rgba(128, 145, 150, 0.9);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 24px;
+    padding-top: 20px;
+  }
+
+  .expertiesRoundedBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 9px 38.887px 11px 28.113px; */
+    align-items: center;
+    border-radius: 26.667px;
+    border: 0.889px solid #cecece;
+    background: #fff;
+    padding-top: 11px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  
+  .expertiesRoundedBoxText {
+    color: rgba(73, 69, 79, 0.8);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    /* padding-top: 11px;
+    padding-left: 28px;
+    padding-right: 28px; */
+  }
+  
+  .LinksIcon {
+    width: 14.222px;
+    height: 14.222px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  
+  .leftSideBoxesHeading {
+    color: rgba(34, 34, 34, 0.9);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .leftSideBoxesPara {
+    color: rgba(73, 69, 79, 0.8);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    margin-top: -13px;
+  }
+  
+  .rightSideMainBoxOfIcon {
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 8.889px;
+    border: 0.889px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1.7777777910232544px 1.7777777910232544px 0px
+      rgba(0, 0, 0, 0.1);
+  }
+  .leftSideIconBoxRed {
+    display: flex;
+    padding: 9px 11px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #ffa78d;
+    border-radius: 0px 8px 8px 0px;
+  }
+  .leftSideIconOfBox {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .leftSideIconBoxYellow {
+    display: flex;
+    width: 78px;
+    height: 74px;
+    padding: 9px 11px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #ffcb00b2;
+    border-radius: 0px 8px 8px 0px;
+  }
+  
+  .leftSideBoxesParaLast {
+    color: #083a50;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    padding-top: 15px;
+  }
+  

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(211, 229, 245);
+  
+}
+
+.background-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+
+  .rana:hover {
+    cursor: pointer;
+  }
+
+
+  

@@ -1,0 +1,27 @@
+.custom-radio {
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .custom-radio.selected {
+    background-color: #709aa4;
+    border: 1px solid #709aa4;
+    color: #fff;
+  }
+  
+
+  .fade-button {
+    opacity: 0.6; /* Adjust the opacity value as needed */
+    poopenSans-events: none; /* Prevent interaction with faded button */
+  }
+  
+  
+  
+  
+  
+  
+  
+  

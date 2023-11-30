@@ -1,0 +1,15 @@
+.card-Date{
+    float: right;
+}
+@media only screen and (max-width: 770px) {
+    .card-Date{
+      float: none;
+    }
+  }
+  
+  /* Media query for extra small screens */
+  @media only screen and (max-width: 576px) {
+    .card-Date{
+        float: none;
+    }
+  }

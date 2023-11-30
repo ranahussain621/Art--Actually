@@ -1,0 +1,44 @@
+.img-responsive {
+    height: 90px;
+}
+
+
+.welcome-font {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #6B6B6B;
+
+}
+
+
+
+.email-varified {
+    color: green;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .img-responsive {
+        height: 50px !important;
+    }
+
+    .icon {
+        font-size: 35px !important;
+    }
+
+    .email-varified {
+        color: green;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px !important;
+    }
+
+    p {
+        width: 100%;
+    }
+
+}

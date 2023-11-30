@@ -1,0 +1,44 @@
+.table-responsive {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto;    /* Maintain aspect ratio while resizing */
+  }
+  .responsive-image {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: auto;
+  }
+
+  @media (max-width: 300px) {
+    .responsive-image {
+      max-width: 25px !important;
+      max-height: 25px !important;  /* Adjust the maximum width for small screens */
+    }
+  }
+
+  @media (max-width: 560px) {
+    .responsive-image {
+      max-width: 50% !important;
+      max-height: 50% !important;  /* Adjust the maximum width for small screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .responsive-image {
+      max-width: 50% !important;
+      max-height: 50% !important;  /* Adjust the maximum width for small screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .responsive-image {
+      max-width: 50% !important; /* Adjust the maximum width for small screens */
+    }
+  }
+  
+
+
+  
